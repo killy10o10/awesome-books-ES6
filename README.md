@@ -2,13 +2,12 @@
 
 # Awesome Books Application with ES6
 
-> This is a HTML/CSS and Javscript based web application. It is used to add books with title and author details. This project has been developed as a part of Microverse Module 2 projects.
+> This is a HTML/CSS and ES6 based web application. It is used to add books with title and author details. This project has been developed as a part of Microverse Module 2 projects.
 
 ## Built With
 
 - HTML
 - CSS
-- Sass
 - Javascript
 
 ## Live Demo
