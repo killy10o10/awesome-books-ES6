@@ -1,0 +1,9 @@
+export const list = document.querySelector('.list');
+export const contact = document.querySelector('.contact');
+export const add = document.querySelector('.add');
+export const bookSection = document.querySelector('#book-section');
+export const contactSection = document.querySelector('#contact-info');
+export const showSection = document.querySelector('#show-section');
+export const localTime = document.querySelector('#local-time');
+export const bookContainer = document.querySelector('.book-container');
+export const form = document.querySelector('form');

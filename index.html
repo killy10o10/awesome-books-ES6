@@ -4,17 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Internal CSS -->
     <link rel="stylesheet" href="./index.css">
     <title>Awesome Books ES6</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav id="nav">
             <a href="index.html" class="logo">Awesome Books</a>
+            <ul class="nav-link">
+                <li><a class="list nav-list blue" href="#">List</a></li>
+                <li><a class="add nav-list" href="#">Add new</a></li>
+                <li><a class="contact nav-list" href="#">Contact</a></li>
+            </ul>
         </nav>
     </header>
+   <main>
+       <div id="local-time"></div>
+        <!-- Show Books Section -->
+        <section id="show-section">
+            <div id="books-section">
+                <h1>Awesome Books</h1>
+                <ul class="book-container">
+                    <!-- content Goes here -->
+                    <li class="book">"Book Title" by Sample Author <button type="button" class="remove">Remove</button></li>
+                </ul>   
+            </div>
+        </section>
+        <!-- Book form Section -->
+        <section id="book-section" class="active"> 
+            <div id="add-book-section">
+                <h2>Add a New Book</h2>
+                <form class="book-form">
+                    <input type="text" name="title" class="title" placeholder="Title">
+                    <input type="text" name="author" class="author" placeholder="Author">
+                    <button type="submit" id="add-book-button">Add</button>
+                </form>
+            </div>
+        </section>
+        <!-- Contact Page Section -->
+        <section id="contact-info" class="active">
+            <div class="contact-div">
+                <h1 class="contact-header">Contact Information</h1>
+                <p class="contact-par">Do have any questions or you just want to say "hello"?<br>
+                   you can reach out to us!</p>
+                   <ul class="contact-detail">
+                       <li class="detail-li">E-Mail: killynelly@gmail.com</li>
+                       <li class="detail-li">Phone Number: +233 23 333 3605</li>
+                   </ul>
+            </div>
+        </section>
+        <!-- Javascript -->
+   </main>
 
-    <script src="./index.js"></script>
+    <footer class="footer">
+    <h4>&copy; Quami Killy, 2022</h4>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
